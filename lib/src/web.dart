@@ -145,7 +145,7 @@ class _EasyWebViewState extends State<EasyWebView> {
       if (_iframeElementMap[key] == null) {
         _iframeElementMap[key] = html.IFrameElement();
       }
-      final element = _iframeElementMap[widget.key];
+      final element = _iframeElementMap[key];
 
       element!
         ..style.border = '0'
